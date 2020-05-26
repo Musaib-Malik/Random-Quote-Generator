@@ -40,12 +40,29 @@ button {
   padding: 12px 12px;
   text-align: center;
   z-index: 990;
+}
 
+.alert {
+  background-color: crimson;
+  padding: .7em;
+  font-family: Asap;
+  color: white;
+}
+
+i {
+  position: absolute;
+  top: 30%;
+  left: 45%;
 }
 
 @media (min-width: 1024px) {
   .output {
     width: 30%;
     transform: translate(-20%);
+  }
+
+  i {
+    left: 47.5%;
+
   }
 }
