@@ -1,6 +1,10 @@
 body {
-  background-color: lightseagreen;
   z-index: -1;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img.png');
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  margin: 0;
 }
 
 button {
@@ -26,6 +30,7 @@ button {
   left: 40%;
   transform: translate(-30%);
   width: 50%;
+  height: auto;
   font-family: Comfortaa;
   color: #fff;
   line-height: 30px;
@@ -35,6 +40,7 @@ button {
   padding: 12px 12px;
   text-align: center;
   z-index: 990;
+
 }
 
 @media (min-width: 1024px) {
