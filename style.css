@@ -1,6 +1,7 @@
 body {
   z-index: -1;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img.png');
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("img.png");
   background-repeat: no-repeat;
   height: 100vh;
   background-size: cover;
@@ -13,15 +14,20 @@ button {
   left: 50%;
   transform: translate(-50%);
   padding: 8px 12px;
-  border: none;
   border-radius: 8px;
   color: #fff;
-  background: linear-gradient(to bottom right, cornFlowerBlue, blue);
+  background: none;
+  border: 1px #007fff solid;
   outline: none;
   font-family: Montserrat;
   font-size: 1rem;
   font-weight: 540;
   cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+
+button:hover {
+  background-color: #007fff;
 }
 
 .final {
@@ -44,7 +50,7 @@ button {
 
 .alert {
   background-color: crimson;
-  padding: .7em;
+  padding: 0.7em;
   font-family: Asap;
   color: white;
 }
@@ -63,6 +69,5 @@ i {
 
   i {
     left: 47.5%;
-
   }
 }
